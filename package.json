@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.8.0",
+    "npm": "7.21.1"
+  },
+  "description": "Simple API with status codes and accept headers",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnS-RIT/http-api-assignment.git"
+  },
+  "author": "John Sniffen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JohnS-RIT/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/JohnS-RIT/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
